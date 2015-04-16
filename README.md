@@ -2,10 +2,10 @@
 
 A Simple password storage solution using RSA and YAML.
 
-Only a fool would use this, I don't know crypto this could be insecure.
+Only a fool would use this, I don't know crypto this could and probably is very insecure.
 
-PassGo acts as a key/value store backed by yaml, passwords are saved to ~/.password.yml set to 0600, values are base64 encoded.  
-your private key is saved to ~/.passgo PEM encoded.
+PassGo acts as a key/value store backed by YAML, passwords are saved to `~/.password.yml` set to 0600, values are base64 encoded.  
+your private key is saved to `~/.passgo` PEM encoded.
 
 Values can be provided on the command line or piped in.
 
